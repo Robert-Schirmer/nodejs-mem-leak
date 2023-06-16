@@ -1,0 +1,6 @@
+{
+  "name": "jest-fetch-leak",
+  "scripts": {
+    "test": "node --max-old-space-size=200 --trace-gc index.js"
+  }
+}
